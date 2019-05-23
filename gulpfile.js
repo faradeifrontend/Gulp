@@ -57,7 +57,7 @@ gulp.task('minifyhtml', () => {
 
 gulp.task('moveimage', function(){
   return gulp.src('src/img/**/*')
-  pipe(gulp.dest('./dist/img/'));
+  .pipe(gulp.dest('./dist/img/'));
  });
 
 // move fonts
