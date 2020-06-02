@@ -8,8 +8,6 @@ https://bitsofco.de/my-css-reset-base/
 Resetting margins, paddings, and borders
  */
 
-
-
 html, body,
 h1, h2, h3, h4, h5, h6,
 a, p, span,
@@ -42,8 +40,6 @@ tr, th, td {
 /**
 Typography
  */
-
-
 
 html {
     font-size: 62.5%;
@@ -92,13 +88,9 @@ main {
     box-sizing: inherit;
 }
 
-
-
 /**
 Resetting specific element styles
  */
-
-
 
 table {
     border-collapse: collapse;
@@ -138,8 +130,6 @@ q:before {
 Attributes & states
 */
 
-
-
 [hidden] {
     display: none !important;
 }
@@ -169,7 +159,6 @@ Screen reader only utility
 /**
  cleafix float
 */
-
 
 .clearfix:after {
   visibility: hidden;
